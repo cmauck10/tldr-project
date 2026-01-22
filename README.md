@@ -21,7 +21,6 @@ Best for: Individual research, demos, non-technical users
    - `prompts/case_matching.md`
    - `prompts/synthesis.md`
    - `cases.csv`
-   - `accounts.csv`
 
 **Usage:**
 Just ask Claude to research a company:
@@ -103,6 +102,8 @@ Replace or edit `accounts.csv` with your current book of business.
 The Python script includes a 15-second delay between API calls to stay under Anthropic's rate limits (30K tokens/minute on lower tiers). Adjust `RATE_LIMIT_DELAY` in `run.py` if needed.
 
 ## Output Example
+
+See a complete example: **[MongoDB Prospect Brief](output/MongoDB_brief.md)**
 
 Each brief includes:
 - **Header**: Company, Industry, Priority score
