@@ -1,0 +1,6 @@
+# Core dependencies
+anthropic>=0.76.0
+python-dotenv>=1.0.0
+
+# Optional: PDF generation
+fpdf2>=2.7.0
